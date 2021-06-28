@@ -1,0 +1,23 @@
+name: test
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+
+    # Core dependencies
+  - python
+  - numpy
+  - networkx
+  - openff-toolkit-base
+  - openff-utilities
+
+    # Optional dependencies
+  - rdkit
+  - ambertools
+
+    # Testing
+  - pytest
+  - pytest-cov
+  - codecov
